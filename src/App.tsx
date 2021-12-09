@@ -1,7 +1,12 @@
+import { Provider } from 'react-redux'
+import Catalog from './components/catalog';
+import store from './store';
 
 function App () {
   return (
-    <h1>Hello world</h1>
+    <Provider store={store}>
+      <Catalog />
+    </Provider>
   );
 }
 
