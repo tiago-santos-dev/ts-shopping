@@ -6,7 +6,7 @@ export interface IProduct {
 
 
 export interface ICartItem {
-    products: IProduct[];
+    product: IProduct;
     quantity: number;
 }
 
