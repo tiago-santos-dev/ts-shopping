@@ -5,7 +5,6 @@ export function AddProductToCart (product: IProduct) {
         type: 'ADD_PRODUCT_TO_CART',
         payload: {
             product,
-            quantity: 1
         }
     }
 }
