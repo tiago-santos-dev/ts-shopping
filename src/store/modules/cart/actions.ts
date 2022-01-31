@@ -18,7 +18,7 @@ export function AddProductToCartSuccess (product: IProduct) {
     }
 }
 
-export function AddProductToCartFailure (productId: IProduct) {
+export function AddProductToCartFailure (productId: number) {
     return {
         type: 'ADD_PRODUCT_TO_CART_FAILURE',
         payload: {
